@@ -3,9 +3,9 @@ int main()
 {
 printf("The numbers before swapping\n");
 int x,y;
-printf("x = ",x);
+printf("x = ");
 scanf("%d",&x);
-printf("y = ",y);
+printf("y = ");
 scanf("%d",&y);
 x=x*y;
 y=x/y;
@@ -14,5 +14,5 @@ printf("The numbers after swapping\n");
 printf("x = %d\n",x);
 printf("y = %d",y);
 
-return 0;
+return 0;)
 }
